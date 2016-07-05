@@ -20,12 +20,12 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - SignalR-ObjC (2.0.1):
-    - SignalR-ObjC/Core (= 2.0.1)
-  - SignalR-ObjC/Core (2.0.1):
+  - SignalR-ObjC (2.0.2):
+    - SignalR-ObjC/Core (= 2.0.2)
+  - SignalR-ObjC/Core (2.0.2):
     - AFNetworking (~> 2.0)
     - SocketRocket (~> 0.4)
-  - SocketRocket (0.4.2)
+  - SocketRocket (0.5.1)
 
 DEPENDENCIES:
   - SignalR-ObjC (from `..`)
@@ -36,7 +36,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
-  SignalR-ObjC: 7ec4f7ba12750224e94229f3653df3f1204955c6
-  SocketRocket: ffe08119b00ef982f6c37052a4705a057c8494ad
+  SignalR-ObjC: 3913aa201f436cf21226e0016ca6c7e94265921a
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: fc0856a76f7a94fe89d06ccf47191957ef40d00e
+
+COCOAPODS: 1.0.1
